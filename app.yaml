@@ -1,0 +1,7 @@
+runtime: nodejs16
+service: windsy-nexus
+handlers:
+  - url: /.*
+    script: auto
+env_variables:
+  NODE_ENV: production
